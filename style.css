@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(20, 33, 61);
+    font-size: 20px;
+    padding: 3%;
+    
+}
+h1{
+    font-family: sans-serif;
+    color: rgb(252, 163, 17);
+    font-size: 3em;
+    text-align: center;
+}
+#minhaFoto{
+    height: 280px;
+    float: left;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+.descricao {
+    position: absolute;
+    top: 70%;
+    right: 30%;
+}
+
+.image-container{
+    height: 300px;
+    position: relative;
+    
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    color: rgb(229, 229, 229);
+}
+.lista{
+    line-height: 45px;
+    color: rgb(252, 163, 17);
+    font-size: 25px;
+}
+
+ul li:nth-child(odd){
+    color: lightblue;
+}
+
+a{
+    padding: 5px;
+    background-color: rgb(252, 163, 17);
+    color: white;
+    border-radius: 5px;
+}
+
+a:hover{
+    background-color: lightblue;
+    color: black;
+}
